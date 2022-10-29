@@ -15,10 +15,9 @@ public class UserInputs {
     System.out.print("What is your age? ");
     int age = scanner.nextInt();
     System.out.printf("You are %d year old.\n", age);
-    // OR
-    int ageInt = Integer.parseInt(scanner.nextInt());
-    int ageDouble = Double.parseDouble(scanner.nextInt());
-    
+    // int ageInt = Integer.parseInt(scanner.nextInt());
+    // int ageDouble = Double.parseDouble(scanner.nextInt());
+  
     // Close out the Scanner from memory
     scanner.close();
   }
