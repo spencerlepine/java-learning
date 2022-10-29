@@ -12,6 +12,6 @@ class Main {
 
     System.out.println("Hello world! You are " + age + " years old.");
     
-    StringsPractice.main(arguments);
+    UserInputs.main(arguments);
   }
 }
