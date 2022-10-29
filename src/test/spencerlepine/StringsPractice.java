@@ -23,6 +23,13 @@ public class StringsPractice {
       String.format("My name is %s. I am from %s. I am %d years old. I have a gpa of %f", name, country, age, gpa)
     );
     
+    // String methods
+    String myString = "yeet";
+    System.out.println(myString.length());
+    System.out.println(myString.isEmpty());
+    System.out.println(myString.toLowerCase());
+    System.out.println(myString.toUpperCase());
+    System.out.println(myString.toCharArray());
 
     // Memory References can be different
     String literalString1 = "abc";
@@ -33,5 +40,13 @@ public class StringsPractice {
 
     System.out.println(literalString1 == literalString2);
     System.out.println(objectString1 == objectString2);
+
+    System.out.println(objectString1.equals(objectString2));
+    System.out.println(objectString1.equalsIgnoreCase(objectString2));
+
+    // Replacement
+    String weather = "The sky is blue";
+    System.out.println(weather.replace("blue", "red"));
+    System.out.println(weather.contains("blue"));
   }
 }
