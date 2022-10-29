@@ -1,6 +1,8 @@
 # java-learning
 Learning Java for the first time
 
+![](./jdk.png)
+
 Download Java JDK:
 https://www.oracle.com/java/technologies/downloads/#jdk17-mac
 
